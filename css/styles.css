@@ -3,7 +3,8 @@
 * {
     margin: 0;
     padding: 0;
-
+    box-sizing:border-box;
+    
 }
 
 .Body {
@@ -36,7 +37,7 @@
     display: flex;
     list-style: none;
 }
-.NavUl-Link{
+.NavUl-link{
     padding: 10px;
     text-decoration: none;
     color:black;
@@ -55,7 +56,7 @@
     padding: 1rem;
 }
 
-.Main-P{
+.Main-p{
     padding: 10px;
     text-align:justify;
     font-size: 16px;
@@ -74,7 +75,7 @@
     gap: 20px;
     padding: 10px;
 }
-.GridImages-Img{
+.GridImages-img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -100,8 +101,8 @@
   'opsz' 24
 }
 
-.Button-Text{
-    padding: 10px;
+.Button-text{
+    padding: 1rem;
     text-align: center;
     display: flex;
     align-items: center;
